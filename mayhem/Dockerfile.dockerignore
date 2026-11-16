@@ -1,0 +1,8 @@
+# Bake the FULL repo (including .git) into the image; drop only local build output and cruft.
+mayhem/build/
+*.o
+*.a
+**/__pycache__/
+.DS_Store
+*.swp
+*~

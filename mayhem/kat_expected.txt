@@ -1,0 +1,40 @@
+xclbin.xsa=xilinx:u200:xdma:201820.2
+xclbin.uuid=54e4d716-0beb-4506-81d1-f09c0660ef35
+xclbin.fpga=virtexuplus:xcu200:fsgd2104:-2:e
+xclbin.kernel=rtl_krnl_vadd_const args=3
+xclbin.arg[0]=b size=4 offset=0x10
+xclbin.arg[1]=length_r size=4 offset=0x18
+xclbin.arg[2]=a size=8 offset=0x20
+xclbin.ip=rtl_krnl_vadd_const:rtl_krnl_vadd_const_1 base=0x1e00000
+xclbin.mem=bank0 kb=16777216 used=0
+xclbin.mem=bank1 kb=16777216 used=1
+xclbin.mem=bank2 kb=16777216 used=0
+xclbin.mem=bank3 kb=16777216 used=0
+xclbin.mem=PLRAM[0] kb=128 used=0
+xclbin.mem=PLRAM[1] kb=128 used=0
+xclbin.mem=PLRAM[2] kb=128 used=0
+trunc.error=exception
+badmagic.error=exception
+fw.name=xilinx_u200_xdma_201820_2
+fw.vendor=xilinx
+fw.board=u200
+fw.bmcver=2.1.5
+fw.flash=0
+fw.uuids=2 0123456789abcdef0123456789abcdef fedcba9876543210fedcba9876543210
+fw.timestamp=123456789abcdef
+fw.bmc.size=17 data=BMCIMAGE-0123456
+fw.bmc.fail=0
+fw.pdi.size=0 fail=1
+fw.secondary.fail=1
+fw.stripped.size=995 fail=0
+fwpdi.name=xilinx_u200_xdma_201820_2
+fwpdi.vendor=xilinx
+fwpdi.board=u200
+fwpdi.bmcver=2.1.5
+fwpdi.flash=1
+fwpdi.uuids=2 0123456789abcdef0123456789abcdef fedcba9876543210fedcba9876543210
+fwpdi.timestamp=123456789abcdef
+fwpdi.bmc.size=17 data=BMCIMAGE-0123456
+fwpdi.bmc.fail=0
+fwpdi.pdi.size=1051 fail=0
+fwpdi.secondary.fail=1

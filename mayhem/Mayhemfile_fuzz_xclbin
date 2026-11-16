@@ -1,0 +1,9 @@
+project: savantenvs/XRT
+target: fuzz_xclbin
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_xclbin/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_xclbin
+    libfuzzer: true
+    timeout: 10
